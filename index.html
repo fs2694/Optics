@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - STEAM</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:regular,bold,italic,thin,light,bolditalic,black,medium&amp;lang=en" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" />
+    <link rel="stylesheet" href="https://code.getmdl.io/1.3.0/material.deep_purple-pink.min.css" />
+</head>
+<body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+        <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+            <div class="mdl-layout--large-screen-only mdl-layout__header-row"></div>
+            <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+                <h1>Let's Learn <b>Optics</b> !</h1>
+            </div>
+            <div class="mdl-layout--large-screen-only mdl-layout__header-row"></div>
+            <div class="mdl-layout__tab-bar mdl-color--primary-dark"></div>
+        </header>
+
+        <main class="mdl-layout__content">
+            <div class="mdl-layout__tab-panel is-active" id="overview">
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <header class="section__play-btn mdl-cell mdl-cell--3-col-desktop mdl-cell--2-col-tablet mdl-cell--4-col-phone mdl-color--teal-100 mdl-color-text--white">
+                        <i class="material-icons">
+                            <iframe
+                                class="video"
+                                width="560"
+                                height="315"
+                                src="https://www.youtube.com/embed/ydfeJQ2cWv0"
+                                frameborder="0"
+                                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                allowfullscreen
+                            ></iframe>
+                        </i>
+                    </header>
+
+                    <div class="mdl-card mdl-cell mdl-cell--9-col-desktop mdl-cell--6-col-tablet mdl-cell--4-col-phone">
+                        <div class="mdl-card__supporting-text">
+                          <img
+                               class="img_style" onclick="changeImage()" id="opticsImage" class="cute" src="https://www.optics4kids.org/osa.o4k/media/optics4kids/siteimages/landing-images/refraction-arrow-animation.gif?ext=.gif" alt="Optic pic">
+                          <b><center>👆 Click on the gif and see more magics.</center></b>
+                          <h4>What is Optics?</h4>
+                            <b>Optics: : [op-tiks] - noun</b>
+                            <p></p>
+                            <p>
+                                A branch of physics that studies electromagnetic radiation (for example, light and infrared radiation), its interactions with matter, and instruments used to gather information due to these interactions.
+                                Optics includes the study of sight.
+                            </p>
+                        </div>
+
+                        <div class="mdl-card__actions">
+                            <a href="https://en.wikipedia.org/wiki/Optics" class="mdl-button">Read More</a>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <div class="mdl-card mdl-cell mdl-cell--12-col">
+                        <div class="mdl-card__supporting-text mdl-grid mdl-grid--no-spacing">
+                            <h4 class="mdl-cell mdl-cell--12-col">Some Facts</h4>
+                            <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                                <div class="section__circle-container__circle mdl-color--primary"></div>
+                            </div>
+                            <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                                <h5>Optics Timeline</h5>
+                                Optics is the physical science that studies the origin and propagation of light, how it changes, what effects it produces, and other phenomena associated with it. This "Optics Timeline" highlights important
+                                events and developments in the science of optics from prehistory to the beginning of the 21st century. It also includes related developments in other fields and related milestones in the human
+                                worldview.&nbsp&nbsp&nbsp<a href="https://www.optics4kids.org/what-is-optics/optics-timeline">TimeLine</a>.
+                                <p></p>
+                                <p></p>
+                            </div>
+
+                            <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                                <div class="section__circle-container__circle mdl-color--primary"></div>
+                            </div>
+                            <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                                <h5>Optics is both science and engineering</h5>
+                                Optics involves both science and engineering. Optics is a field of such variety that scientists and engineers with all kinds of interests contribute to it. Optics is a vibrant and growing field with a rich
+                                history.&nbsp&nbsp&nbsp<a href="https://www.optics4kids.org/what-is-optics/general/optics-is-both-science-and-engineering">Both Science and Engineering</a>.
+                                <p></p>
+                                <p></p>
+                            </div>
+
+                            <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                                <div class="section__circle-container__circle mdl-color--primary"></div>
+                            </div>
+                            <div class="section__text mdl-cell mdl-cell--10-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                                <h5>The Eye</h5>
+                                The eye is a sophisticated, one-lens system for imaging visible light.&nbsp&nbsp&nbsp<a href="https://www.optics4kids.org/what-is-optics/vision/the-eye">How does the eye work?</a>
+                            </div>
+                        </div>
+                        <div class="mdl-card__actions">
+                            <a href="https://www.optics4kids.org/what-is-optics" class="mdl-button"> Find More on <i>Optics 4 Kids</i> </a>
+                        </div>
+                    </div>
+
+                </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <div class="mdl-card mdl-cell mdl-cell--12-col">
+                        <div class="mdl-card__supporting-text">
+                            <h4>Make a Telescope</h4>
+                            This activity demonstrates how to make a simple telescope using two lenses and a cardboard tube.
+                        </div>
+                        <div class="mdl-card__actions">
+                            <div class="row">
+                                <div class="col-xs-12 col-md-12">
+                                    <h5 class="page-header">Directions</h5>
+                                </div>
+                                <div class="col-xs-12 col-md-12">
+                                    <div class="panel panel-info">
+                                        <div class="panel-heading">
+                                            <ol>
+                                                <li>
+                                                    Take your cardboard tube and cut it down to the length of the two focal lengths of the lenses (for example: if I have 10cm and 20cm lenses, I would need a 30cm tube). Hold a lens at the
+                                                    floor under a ceiling light and move the lens up until you see an image of the light fixture on the floor. The distance between the floor and the lens is its focal length.
+                                                </li>
+                                                <li>Now attach the lenses to either end of the tube using the sticky tape, but try not to obscure the view through the tube.</li>
+                                                <li>
+                                                    Using your felt tip pen, color the end of the tube with the shorter focal length lens so you know which direction to look through (the end with the lens with the shorter focal length).
+                                                </li>
+                                                <li>
+                                                    Now look though the end that you've marked and you're looking through a telescope! The first thing you'll notice is that the image you see is upside down. Real telescopes have many lenses
+                                                    in them so the image always appears the right side up.
+                                                </li>
+                                                <li>
+                                                    If the focal lengths of your lenses were about the same, you might not think there's much of a difference in image size. If you look through the telescope with one eye, however, and look
+                                                    straight at the object with the other you should be able to see both the magnified and the unmagnified image and compare the two. Guess how many times larger the image is than the object.
+                                                    In theory if you divide the larger focal length by the smaller one you should get the magnification of the telescope. If you take the case above where we had a 10cm focal length lens and a
+                                                    20cm focal length lens then you divide 20 by 10 and get 2. Therefore that telescope would have a magnification of x2. Did you guess the right magnification for your telescope?
+                                                </li>
+                                            </ol>
+                                        </div>
+
+                                        <div class="well">
+                                            <div class="row">
+                                                <div class="col-xs-12 col-md-12">
+                                                    <h5>Materials</h5>
+                                                    <p></p>
+                                                    <p></p>
+                                                </div>
+
+                                                <div   class="col-xs-6 col-md-6">
+                                                    <div  class="checkbox">
+                                                        <label> <input value="2 convex lenses with different focal lengths" id="checkbox" type="checkbox" > 2 convex lenses with different focal lengths </input></label>
+                                                    </div>
+                                                    <div class="checkbox">
+                                                        <label> <input value="A card board tube that’s length is at least that of two focal lengths of the lenses when added up Ootoro" id="checkbox" type="checkbox" > A card board tube that’s length is at least that of two focal lengths of the lenses when added up Ootoro</input> </label>
+                                                    </div>
+                                                </div>
+                                                <div class="col-xs-6 col-md-6">
+                                                    <div class="checkbox">
+                                                        <label> <input value="Color felt tip pen" id="checkbox" type="checkbox" > Color felt tip pen </input></label>
+                                                    </div>
+                                                    <div class="checkbox">
+                                                        <label>
+                                                            <input value="Sticky tape" id="checkbox" type="checkbox" >Sticky tape</input>
+                                                        </label>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <p></p>
+                                        <p></p>
+
+ 
+                                                <p></p>
+                                                <p></p>
+                                                <p></p>
+                             <div>
+          <button class="btn btn-lg btn-primary" type="button" onclick="printSave(event)">Save</button>
+          <button class="btn btn-lg btn-primary" type="button" onclick="resetCheckbox(event)">Reset</button>
+        </div>
+                                      <br/>                                             <br/>
+                            <div class="tags">
+        <!-- See printTagsHTML -->
+      </div>
+                       </form>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <div>
+                  
+                                 </section>
+                <section class="section--center mdl-grid mdl-grid--no-spacing mdl-shadow--2dp">
+                    <div class="mdl-card mdl-cell mdl-cell--12-col">
+                        <div class="mdl-card__supporting-text">
+                            <h4>Reflection</h4>
+                            Now, do you know what optics is?
+<p>
+  Please check yourself:
+  
+                                <div class="col-xs-12 col-md-12">
+                                    <div class="panel panel-info">
+                                        <div class="panel-heading">
+                                            <ol>
+                                                <li>
+                                                    Summarize the meaning of optics in 3 sentences;
+                                                    
+                                                </li>
+                                                <li>What facts do you know about optics?
+</li>
+                                                <li>
+                                                    Using the principles learned, can you create any activities?
+
+                                                </li>
+                                                
+                                            </ol>
+                                        </div>
+Please write down your reflection and click "Submit". Looking forward to seeing your feedback!
+                                      <p>
+                                        <p>
+                                                                              <div class="panel-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <label for="yourEmail">Email address</label>
+                                                    <input type="email" class="form-control" id="email" placeholder="Email" onchange="updateEmail()" />
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="yourName">Name</label>
+                                                    <input type="text" class="form-control" id="name" placeholder="Full Name" onchange="updateName()"  />
+                                                </div>
+                     <div class="panel-body">
+                                            <form>
+                                                <div class="form-group">
+                                                    <label for="Reflection" >Reflection</label>
+                                                    <input type="reflection" class="form-control" id="reflection"   onchange="updateReflection()" placeholder="Reflection" />
+                                                </div>
+                                                <button type="button" onClick="printInfo()" class="btn btn-lg btn-primary">Submit</button>
+                                                  
+                                                  
+                                                  
+                                                  
+
+                    <ul class="mdl-menu mdl-js-menu mdl-menu--bottom-right" for="btn3">
+                        <li class="mdl-menu__item">Lorem</li>
+                        <li class="mdl-menu__item" disabled>Ipsum</li>
+                        <li class="mdl-menu__item">Dolor</li>
+                    </ul>
+                </section>
+                <section class="section--footer mdl-color--white mdl-grid">
+                    <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                        <div class="section__circle-container__circle mdl-color--accent section__circle--big"></div>
+                    </div>
+                    <div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                        <h5>American Association of Physics Teachers Optics Collection of Lesson Plans</h5>
+                        Optics Science educational resources.
+                        <p>
+                            <a href="https://aapt.org/K12/Optics-Collection.cfm">More Resource</a>
+                        </p>
+                    </div>
+
+                    <div class="section__circle-container mdl-cell mdl-cell--2-col mdl-cell--1-col-phone">
+                        <div class="section__circle-container__circle mdl-color--accent section__circle--big"></div>
+                    </div>
+                    <div class="section__text mdl-cell mdl-cell--4-col-desktop mdl-cell--6-col-tablet mdl-cell--3-col-phone">
+                        <h5>Synopsys Optics for Kids</h5>
+                        Understanding the science and engineering of optics from Synopsys.
+                        <p>
+                            <a href="https://aapt.org/K12/Optics-Collection.cfm">More Resource</a>
+                        </p>
+                    </div>
+                </section>
+            </div>
+
+            <footer class="mdl-mega-footer">
+                <div class="mdl-mega-footer--middle-section">
+                    <div class="mdl-mega-footer--drop-down-section">
+                        <input class="mdl-mega-footer--heading-checkbox" type="checkbox" checked />
+                    </div>
+                </div>
+
+                <script src="https://code.getmdl.io/1.3.0/material.min.js"></script>
+            </footer>
+        </main>
+    </div>
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
